@@ -17,5 +17,14 @@ Ett enkelt Sokoban-spel där användaren kan välja mellan olika kartor och spel
 ├── actions.js       # Hanterar spelinteraktioner
 
 
+## 🚀 Användning
+
+1. Klona projektet:
+   ```bash
+   git clone <repository-url>
+   cd SokobanGame
+
+
+
 
 
