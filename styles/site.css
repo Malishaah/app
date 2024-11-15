@@ -1,0 +1,118 @@
+body {
+  margin: auto;
+  width: 590px;
+  padding: 10px;
+  background-color: #ebebeb;
+  font-size: 14px;
+  font-family:'Times New Roman', Times, serif;
+  background-image: url('../images/back.jpeg');
+}
+h1 {
+  margin-left: 10px;
+  color:white
+}
+.W {
+  background-image: url('../images/wall.png');
+  width: auto;
+  height: auto;
+}
+
+.G {
+  background-image: url('../images/dock.png');
+  width: auto;
+  height: auto;
+}
+.GD {
+  background-image: url('../images/box_docked.png');
+  width: auto;
+  height: auto;
+}
+.B {
+  background-image: url('../images/box.png');
+  width: auto;
+  height: auto;
+}
+.Empty {
+  background-image: url('../images/floor.png');
+  width: auto;
+  height: auto;
+}
+.P {
+  background-image: url('../images/worker.png');
+  width: auto;
+  height: auto;
+}
+.PD {
+  background-image: url('../images/worker_dock.png');
+  width: auto;
+  height: auto;
+}
+#resetGame {
+  display: none;
+}
+#gametable {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(19, 28px);
+  grid-template-rows: repeat(16, 28px);
+}
+
+#gametable > div {
+  background-color: #3dabff;
+  text-align: center;
+  font-size: 28px;
+}
+img {
+  object-fit: cover;
+}
+#banner {
+  margin: 10px;
+  background-color: #7640ff;
+  display: none;
+  justify-content: center;
+  border-radius: 30px;
+  color: white;
+}
+
+#banner > p {
+  text-align: center;
+  font-size: 35px;
+  
+}
+#menu {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+#menu input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+}
+#menu h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+button {
+  background-color: #fd1d4a;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Times New Roman', Times, serif
+  ;
+}
+
+button:hover {
+  background-color: #b941ff;
+}

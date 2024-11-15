@@ -1,0 +1,17 @@
+{
+  "source": {
+    "include": ["./scripts/SokobanBase.js", "./scripts/actions.js"],
+    "includePattern": ".+\\.js$"
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true,
+    "tutorials": "./tutorials"
+  },
+  "templates": {
+    "cleancut": {
+      "methodHeading": "none",
+      "overview": "true"
+    }
+  }
+}

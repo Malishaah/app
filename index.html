@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sokoban</title>
+    <link rel="stylesheet" type="text/css" href="/styles/site.css" />
+    <script src="/scripts/SokobanBase.js"></script>
+  </head>
+  <body>
+    <div id="menu">
+      <h2>Välj en karta</h2>
+      <input
+        type="text"
+        id="playerNameInput"
+        placeholder="Ange ditt namn här"
+        required
+        minlength="3"
+        maxlength="20"
+      />
+      <p id="error-message" style="color: red; display: none">
+        Namnet måste vara mellan 3 och 20 tecken.
+      </p>
+
+      <button onclick="startGame('tileMap01')">Spela Bana 1</button>
+      <button onclick="startGame('tileMap02')">Spela Bana 2</button>
+    </div>
+    <h1 id="UserName"></h1>
+    <button id="resetGame" onclick="resetGame()">Nytt Spel</button>
+    <div id="gamespace">
+      <div id="gametable"></div>
+    </div>
+    <div id="banner">
+      <p id="win"></p>
+    </div>
+  </body>
+  <script src="/scripts/actions.js"></script>
+</html>
